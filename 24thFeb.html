@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+  <style>
+      #btn{/*(0 , 0, 1, 0)*/
+      color: red
+      }
+
+   .custom-btn{ /*(0 , 0, 0, 0) */
+       color: chartreuse;
+   }
+   *{/*(0,0,0,0)*/
+   color: yellow
+   }
+   .hiclass[name]{/*
+       .hiclass = (0,0,1,0) [name]=(0,0,1,0)
+       .hiclass +[name] =(0,0,1,0)+(0,0,1,0) =(0,0,2,0)*/
+       color: deeppink;
+   }
+
+   .hiclass{/*(0,0,1,0)*/
+       color:blueviolet;
+   }
+
+   [name]{/*(0, 0, 1, 0)*/
+       color: blue;
+   }
+  </style>
+</head>
+<body>
+<button class="custom-btn"id="btn">click</button>
+<br>
+<h1 class="hiclass"name="name">hellow</h1>
+<h1 class="hiclass" >welcome</h1>
+<h2 name="name">hi!</h2>
+</body>
+</html>
